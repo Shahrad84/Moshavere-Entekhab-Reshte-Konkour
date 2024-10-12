@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Yekan;
+}
+
+
+@font-face{
+    font-family: Yekan;
+    src: url('fonts/Yekan.ttf');
+}
+
+@font-face{
+    font-family: Titr;
+    src: url('fonts/B\ Titr\ Bold_0.ttf');
+}
+
+@font-face{
+    font-family: Koodak;
+    src: url('fonts/B\ Koodak\ Bold_0.ttf');
+}
+
+header{
+    background: rgb(0, 0, 83);
+
+    width: 100%;
+    height: 100px;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    top: 20px;
+    font-family: Titr;
+}
+
+.introduce{
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(135deg, #F2015B 0%, #ED02F1 50%, #0403BD 100%);
+}
+
+.introduce .description{
+    position: absolute;
+    width: 500px;
+    height: 130px;
+
+    top: 210px;
+    right: 200px;
+}
+
+.introduce .description p{
+    color: rgb(255, 255, 255);
+    text-align: right;
+    font-size: 35px;
+    font-family: Koodak;
+}
+
+.register-link{
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+
+    position: relative;
+    top: 170px;
+    left: 200px;
+}
+
+.register-link p{
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 12px;
+}
+
+.register-link:hover{
+    background: blue;
+    color: #ED02F1;
+}
+
+.sureness{
+    width: 100%;
+    height: 1800px;
+
+    position: relative;
+}
+
+
+.sureness .dream-sureness-text{
+    width: 800px;
+    height: 120px;
+
+    font-size: 45px;
+    text-align: center;
+    color: rgb(154, 130, 0);
+
+    /*Positing*/
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 200px;
+    left: 70%;
+
+}
+
+
+.sureness .pass-sureness-text{
+    width: 700px;
+    height: 100px;
+
+    font-size: 60px;
+    text-align: center;
+    color: rgb(215, 183, 0);
+
+
+    /*Positing*/
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 360px;
+    left: 55%;
+
+}
+
+.sureness .goldenStar-image{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 300px;
+    left: 38%;
+
+    width: 560px;
+    height: 375px;
+}
+
+.sureness .physicians-image{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 1130px;
+    left: 50%;
+
+    width: 1110px;
+    height: 870px;
+}
+
+
+/*register section and field*/
+
+
+
+#register-section{
+    height: 850px;
+    background: url(images/university-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#register-box{
+    width: 600px;
+    height: 600px;
+
+    position: relative;
+    top: 150px;
+    left: 500px;
+
+    background: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(5px);
+
+    border-radius: 10px;
+
+    padding-top: 20px;
+}
+
+#register-box .input-fields{
+    width: 400px;
+    height: 35px;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    position: relative;
+    left: 100px;
+}
+
+#register-box .input-fields input, select{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+}
+
+#register-box #register-form-title{
+    padding: 20px;
+}
+
+#register-box #register-form-title p{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+#submit-btn{
+    width: 120px;
+    height: 40px;
+
+    position: absolute;
+    bottom: 40px;
+    left: 240px;
+    padding-top: 7px;
+
+    background: white;
+    font-size: 20px;
+    border-radius: 8px;
+
+    display: grid;
+    justify-content: center;
+
+}
+
+#submit-btn:hover{
+    background: rgb(0, 255, 115);
+    color: rgb(255, 255, 255);
+}
